@@ -1,4 +1,3 @@
-alert("hi")
 // button fucntions
 function openCity(evt, cityName) {
   // Declare all variables
