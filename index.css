@@ -1,18 +1,10 @@
 h1 {
   font-size: 100px;
-
 }
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
+  background-color: #AC9FBB;
+  float: center;
   border: none;
   outline: none;
   cursor: pointer;
