@@ -2,6 +2,7 @@ h1 {
   font-size: 100px;
   text-align: center;
 }
+<<<<<<< HEAD
 /* Button styling  */
 /* Style the tab */
 .tab {
@@ -37,4 +38,14 @@ h1 {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+=======
+a {
+  font-size: 55px;
+  background-color: DodgerBlue;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 10px;
+  margin-left: 80px;
+
+>>>>>>> 4100404c8fd6a57962f8b4db6bafcd2b1d49d5cd
 }
