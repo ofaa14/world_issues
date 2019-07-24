@@ -1,11 +1,12 @@
 h1 {
   font-size: 100px;
   text-align: center;
+
 }
 
 .nav{
   border:1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: #76A490;
   border-width: 1px 0;
   list-style: none;
   margin:0;
@@ -43,7 +44,7 @@ h1 {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #D3D0CB;
 }
 
 /* Create an active/current tablink class */

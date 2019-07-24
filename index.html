@@ -2,13 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" charset="utf-8"></script>
+    <script src="index.js"></script>
     <h1>World Issues</h1>
+    <link rel="stylesheet" href="Environmental.css">
   </head>
 <!-- We are making buttons right here  -->
 
 <div class="tab">
   <ul class= "nav">
+  <button class="tablink" onclick="openCity(event, 'Home')">Home</button>
   <button class="tablinks" onclick="openCity(event, 'London')">Environmental Issues</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Social Issues</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Human Rights Issues</button>
@@ -16,10 +18,11 @@
 </div>
 
 <!-- Tab content -->
-    <link rel="stylesheet" href="Environmental.css">
+<div id= "Home" class="tabcontent">
+  <h2> Why are these issues important?</h2>
+</div>
 <div id="London" class="tabcontent">
-  <!-- <h3>Environmental Issues</h3> -->
-  <p><h2> Climate Change:</h2>
+  <h2> Climate Change:</h2>
     <p><img src="https://ane4bf-datap1.s3-eu-west-1.amazonaws.com/wmocms/s3fs-public/styles/featured_media_detail/public/news/featured_media/new-climate-statement-infographic_2018_0.png?lkfmoahuwvswsRsKZHRa2FMazya_Asrb&itok=azeHuK21" alt="Climate Change" class="center"  width="350" height="350" ></p>
   <!-- creds for image: https://public.wmo.int/en/media/press-release/state-of-climate-2018-shows-accelerating-climate-change-impacts -->
   <h2> Deforestation:</h2>
@@ -30,12 +33,10 @@
 </div>
 
 <div id="Paris" class="tabcontent">
-  <!-- <h3>Social Issues</h3> -->
   <p>Paris is the capital of France.</p>
 </div>
 
 <div id="Tokyo" class="tabcontent">
-  <!-- <h3>Human Rights Issues</h3> -->
   <p>Tokyo is the capital of Japan.</p>
 </div>
   <body>
