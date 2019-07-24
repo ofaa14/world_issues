@@ -32,7 +32,7 @@ h1 {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
-  /* float: left; */
+  float: left;
   border: none;
   outline: none;
   cursor: pointer;
