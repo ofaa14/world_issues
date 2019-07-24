@@ -1,7 +1,7 @@
 h2{
   font-size: 30px;
-  text-indent: 50px;
-font-family: "Sans-serif", Geneva;
+  text-align: center;
+  font-family: "Sans-serif", Geneva;
 }
 
 h1{
@@ -21,14 +21,14 @@ body{
 
 .leftcolumn {
   float: left;
-  width: 65%;
+  width: 60%;
 }
 
 .rightcolumn {
   float: left;
-  width: 25%;
+  width: 35%;
   background-color: #f1f1f1;
-  padding-left: 10px;
+  padding-left: 40px;
 }
 
 .card {
@@ -48,7 +48,7 @@ h5{
 }
 
 p{
-  text-indent: 80px
+  /* text-indent: 10px */
 }
 
 @media screen and (max-width: 800px) {
@@ -63,4 +63,11 @@ p{
     float: none;
     width: 100%;
   }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
