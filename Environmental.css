@@ -1,12 +1,17 @@
 h2{
   font-size: 30px;
+<<<<<<< HEAD
   text-indent: 50px;
 font-family: "Sans-serif", Geneva;
+=======
+  text-indent: 100px;
+  font-family: "Sans-serif", Geneva;
+>>>>>>> 9a1afc8bfe986ffa6cfafa6423327080072cd619
 }
 
 h1{
   font-family: "Sans-serif", Geneva;
-  background-color: #666;
+  background-color: #053464;
   padding: 30px;
   text-align: center;
   font-size: 55px;
