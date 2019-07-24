@@ -3,6 +3,25 @@ h1 {
   text-align: center;
 }
 
+.nav{
+  border:1px solid #ccc;
+  background-color: #f1f1f1;
+  border-width: 1px 0;
+  list-style: none;
+  margin:0;
+  /* width:100%; */
+  padding:5px;
+  text-align:center;
+}
+
+.nav li{
+  display:inline;
+}
+
+.nav a{
+  display: inline-block;
+  padding:10px;
+}
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -13,7 +32,7 @@ h1 {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   background-color: inherit;
-  float: left;
+  /* float: left; */
   border: none;
   outline: none;
   cursor: pointer;
