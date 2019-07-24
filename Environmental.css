@@ -1,11 +1,7 @@
 h2{
   font-size: 30px;
-  text-indent: 100px;
-<<<<<<< HEAD
-=======
-
->>>>>>> 24b4494569e68fcca4859c98f3f8971cf473c65b
-  font-family: "Sans-serif", Geneva;
+  text-indent: 50px;
+font-family: "Sans-serif", Geneva;
 }
 
 h1{
@@ -17,11 +13,54 @@ h1{
   color: white;
 }
 
+body{
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
 
-section{
+.leftcolumn {
   float: left;
-  padding: 20px;
-  width: 70%;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  padding-left: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h5{
+  text-indent: 80px
+}
+
+p{
+  text-indent: 80px
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
