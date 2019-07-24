@@ -1,7 +1,13 @@
 h2{
+<<<<<<< HEAD
   font-size: 30px;
   text-align: center;
   font-family: "Sans-serif", Geneva;
+=======
+  font-size: 20px;
+  text-indent: 50px;
+font-family: "Sans-serif", Geneva;
+>>>>>>> f3423162613aeed8f22edc5dac667cc1f5264934
 }
 
 h1{
@@ -9,7 +15,7 @@ h1{
   background-color: #053464;
   padding: 30px;
   text-align: center;
-  font-size: 55px;
+  font-size: 35px;
   color: white;
 }
 
