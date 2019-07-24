@@ -8,4 +8,18 @@ h2{
 h1{
   text-decoration: underline;
   font-family: "Sans-serif", Geneva;
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+section{
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
 }
