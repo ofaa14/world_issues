@@ -1,12 +1,7 @@
 h2{
   font-size: 30px;
-<<<<<<< HEAD
   text-indent: 50px;
 font-family: "Sans-serif", Geneva;
-=======
-  text-indent: 100px;
-  font-family: "Sans-serif", Geneva;
->>>>>>> 9a1afc8bfe986ffa6cfafa6423327080072cd619
 }
 
 h1{
@@ -26,14 +21,14 @@ body{
 
 .leftcolumn {
   float: left;
-  width: 75%;
+  width: 65%;
 }
 
 .rightcolumn {
   float: left;
   width: 25%;
   background-color: #f1f1f1;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .card {
