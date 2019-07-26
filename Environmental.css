@@ -16,7 +16,7 @@ h1{
 }
 
 body{
-  font-family: Arial;
+  font-family: "Sans-serif", Geneva;
   padding: 10px;
   background: #f1f1f1;
 }
@@ -35,8 +35,8 @@ body{
 
 .card {
   background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 .row:after {
