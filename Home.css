@@ -2,7 +2,7 @@
 
 h2{
 
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   font-family: "Sans-serif", Geneva;
 }
@@ -24,6 +24,8 @@ body{
   background: #f1f1f1;
 }
 
+
+
 .center {
   display: block;
   margin-left: auto;
@@ -32,7 +34,7 @@ body{
 }
 
 .leftcolumn {
-  float: left;
+  float: center;
   width: 100%;
 }
 
@@ -40,6 +42,7 @@ body{
   background-color: white;
   padding: 30px;
   margin-top: 30px;
+  text-align: center;
 }
 
 
@@ -48,3 +51,17 @@ body{
   text-align: center;
   padding: 10px;
 }
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
