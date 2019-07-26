@@ -1,6 +1,6 @@
 h2{
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   font-family: "Sans-serif", Geneva;
 }
 
@@ -22,7 +22,7 @@ body{
 
 .leftcolumn {
   float: left;
-  width: 40%;
+  width: 60%;
 }
 
 .rightcolumn {
