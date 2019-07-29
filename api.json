@@ -1,4 +1,140 @@
 {
+<<<<<<< HEAD
+"status": "ok",
+"totalResults": 10,
+-"articles": [
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Analysis by Chris Cillizza, CNN Editor-at-large",
+"title": "8 key takeaways from Robert Mueller's testimony",
+"description": "The big day is underway. After months of legal wrangling -- and more than 100 days after the release of his report detailing Russia's attempts to interfere in the 2016 presidential election -- former special counsel Robert Mueller will take questions from Cap…",
+"url": "https://www.cnn.com/2019/07/24/politics/robert-mueller-testimony-highlights/index.html",
+"urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/190724074837-02-mueller-hearing-0724-super-tease.jpg",
+"publishedAt": "2019-07-24T16:08:00+00:00",
+"content": "The big day is underway. After months of legal wrangling -- and more than 100 days after the release of his report detailing Russia's attempts to interfere in the 2016 presidential election -- former special counsel Robert Mueller will take questions from Cap… [+38 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Ronn Blitzer",
+"title": "Trump administration scores win over challenge to asylum restriction",
+"description": "A federal judge ruled on Wednesday to leave in place a Trump administration rule that would place restrictions on individuals seeking asylum in the United States if they passed through a third country on their way to the border between the U.S. and Mexico, po…",
+"url": "https://www.foxnews.com/politics/trump-admin-scores-win-over-move-to-limit-asylum-claims",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2019/07/AP19200781978601.jpg",
+"publishedAt": "2019-07-24T15:47:12+00:00",
+"content": "A federal judge decided Wednesday to leave in place a Trump administration rule that imposes restrictions on individuals seeking asylum in the United States if they passed through a third country on their way to the border between the U.S. and Mexico, potenti… [+2868 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Jamels Jay Carafano",
+"title": "James Carafano: Boris Johnson takes the reins – Expect to see these six major foreign policy 'resets'",
+"description": "Sure, Boris Johnson could use a comb. But he’s already got what matters most in a leader and ally: a backbone.",
+"url": "https://www.foxnews.com/opinion/james-jay-carafano-boris-johnson-prime-minister-foreign-policy-resets",
+"urlToImage": "https://media2.foxnews.com/BrightCove/694940094001/2019/07/23/694940094001_6063002930001_6063009039001-vs.jpg",
+"publishedAt": "2019-07-24T15:07:14+00:00",
+"content": "Sure, Boris Johnson, could use a comb. But he’s already got what matters most in a leader and ally: a backbone.\r\nWith Johnson as its new British Prime Minister, the United Kingdom can expect a bolder and more self-confident foreign policy. And the changes he … [+4170 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Ronn Blitzer",
+"title": "Puerto Rico Gov. Ricardo Rosselló to resign: source",
+"description": "Puerto Rico Gov. Ricardo Rosselló plans to resign, a source tells Fox News, after his administration was the target of mass protests for weeks over corruption allegations and a leaked-message scandal.",
+"url": "https://www.foxnews.com/politics/puerto-rico-gov-ricardo-rossello-resign-source",
+"urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2018/10/Ricardo-Rosello-AP.jpg",
+"publishedAt": "2019-07-24T15:04:04+00:00",
+"content": "Puerto Rico Gov. Ricardo Rosselló plans to resign, a source tells Fox News, after his administration was the target of mass protests for weeks over corruption allegations and a leaked-message scandal.\r\nA source close to Rosselló said that the governor is set … [+3217 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Phil Helsel, Minyvonne Burke",
+"title": "School district that warned parents of foster care wouldn't let me erase lunch debts, CEO says",
+"description": "A coffee company CEO said the Wyoming Valley West School Board president rejected his offer to pay $22,000 in lunch debts. The district had warned parents of foster care if they did not pay their lunch bills.",
+"url": "https://www.nbcnews.com/news/us-news/school-district-warned-parents-foster-care-wouldn-t-let-me-n1033271",
+"urlToImage": "https://media2.s-nbcnews.com/j/newscms/2019_29/2939881/190718-wyoming-lunch-letter-mn-1000_5bcad4bb598d28aec0d991c2f2b18839.nbcnews-fp-1200-630.jpg",
+"publishedAt": "2019-07-24T13:12:00+00:00",
+"content": "A Pennsylvania school district that warned parents that unpaid lunch fees could lead to their children being placed in foster care rejected a businessman's offer to clear the debts, a Philadelphia CEO said.\r\nLa Colombe Coffee CEO Todd Carmichael said the Wyom… [+2552 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "",
+"title": "Justice Ginsburg: 'I Am Very Much Alive'",
+"description": "The Supreme Court justice sat down for an interview with NPR's Nina Totenberg and said that despite battling cancer for a third time earlier this year, she's not going anywhere anytime soon.",
+"url": "https://www.npr.org/2019/07/24/744633713/justice-ginsburg-i-am-very-much-alive",
+"urlToImage": "https://media.npr.org/assets/img/2019/07/23/2019-07-23-rbg-shuang-01_wide-654093093df4ff7250aaebf44184e0bc99edcaf4.jpg?s=1400",
+"publishedAt": "2019-07-24T09:00:00+00:00",
+"content": "Justice Ruth Bader Ginsburg sits for a portrait in the Lawyer's Lounge at the Supreme Court of the United States.\r\nShuran Huang / NPR\r\nJustice Ruth Bader Ginsburg said in an interview Tuesday that she does not favor proposals put forth by some Democratic pres… [+8636 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Fox News",
+"title": "Charging bison flings 9-year-old girl into the air at Yellowstone",
+"description": "A 9-year-old girl was thrown several feet into the air by a charging bison at Yellowstone National Park Monday – and the incident was caught on camera, according to a report.",
+"url": "https://www.foxnews.com/great-outdoors/watch-charging-bison-flings-9-year-old-girl-into-the-air-at-yellowstone",
+"urlToImage": "https://media2.foxnews.com/BrightCove/694940094001/2019/07/24/694940094001_6063458476001_6063459576001-vs.jpg",
+"publishedAt": "2019-07-24T08:56:14+00:00",
+"content": "A 9-year-old girl was thrown several feet into the air by a charging bison at Yellowstone National Park on Monday – and the incident was caught on camera.\r\nThe girl was one of about 50 visitors standing near the bison by the Old Faithful Geyser when it starte… [+1128 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Cydney Henderson",
+"title": "Teen rapper Tay-K sentenced to 55 years in prison for deadly home invasion",
+"description": "Texas rapper Tay-K has been sentenced to 55 years behind bars for the 2016 murder of Ethan Walker during a home invasion.",
+"url": "https://www.usatoday.com/story/entertainment/music/2019/07/23/teen-rapper-tay-k-sentenced-55-years-prison-home-invasion/1811147001/?utm_source=google&utm_medium=amp&utm_campaign=speakable",
+"urlToImage": "https://www.gannett-cdn.com/presto/2019/07/24/USAT/00b8b3fe-ea92-4167-9a6e-96f8e5b89532-AP_Rapper_Convicted_Home_Invasion.JPG?crop=1599,900,x0,y319&width=3200&height=1680&fit=bounds",
+"publishedAt": "2019-07-24T03:11:00+00:00",
+"content": "19-year-old rapper Tay-K was sentenced to 55 years in prison for murder.\r\n USA TODAY\r\nTexas rapper Tay-K has been sentenced to 55 years in prison for murder. \r\nThe 19-year-old, whose legal name is Taymor McIntyre, was charged in the 2016 death of 21-year-old … [+1549 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "https://www.washingtonexaminer.com/author/becket-adams",
+"title": "No, Fox News isn’t boycotting Mueller’s testimony. That’s a lie",
+"description": "For a network that dedicates so much effort to tracking and cautioning against the spread of online misinformation, you would think that MSNBC would be more careful with what its guests and hosts say on air.",
+"url": "https://www.washingtonexaminer.com/opinion/no-fox-news-isnt-boycotting-muellers-testimony-thats-a-lie",
+"urlToImage": "https://mediadc.brightspotcdn.com/dims4/default/5512bf2/2147483647/strip/true/crop/2290x1202+0+0/resize/1200x630!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2F96%2Fff%2Fbe55d48f4d29870ac07dbeff37c9%2Fmueller-report.jpg",
+"publishedAt": "2019-07-23T22:57:00+00:00",
+"content": "For a network that dedicates so much effort to tracking and cautioning against the spread of online misinformation, you would think that MSNBC would be more careful with what its guests and hosts say on air. \r\nBut you would be wrong! The fake news is coming f… [+2563 chars]"
+},
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Alex Lockie",
+"title": "Close analysis of Kim Jong Un's new nuclear-missile submarine reveals it's bound for a suicide mission",
+"description": "A submarine expert compared North Korea's old technology to taking a '67 Chevy and trying to drive it cross country without a major overhaul.",
+"url": "https://www.businessinsider.com/kim-jong-uns-new-nuclear-missile-submarine-built-suicide-mission-2019-7",
+"urlToImage": "https://amp.businessinsider.com/images/5d376073100a244e7c636e47-1136-568.jpg",
+"publishedAt": "2019-07-23T20:41:20+00:00",
+"content": "North Korea on Monday recalled the days of \"fire and fury\" by releasing images of leader Kim Jong Un touring a suspected nuclear-capable submarine, and a close reading of the images reveal once again that a US fight with North Korea could mean death for milli… [+4768 chars]"
+}
+]
+=======
   "status": "ok",
   "totalResults": 10,
   "articles": [
@@ -133,4 +269,5 @@
     "content": "North Korea on Monday recalled the days of \"fire and fury\" by releasing images of leader Kim Jong Un touring a suspected nuclear-capable submarine, and a close reading of the images reveal once again that a US fight with North Korea could mean death for milli… [+4768 chars]"
     }
   ]
+>>>>>>> ffcea113cbf928e7c6b8f9b05352c47cbe8e9edf
 }
