@@ -23,6 +23,10 @@ function openCity(evt, cityName) {
 
 function init() {
   openCity(event, 'Home');
+<<<<<<< HEAD
+=======
+  console.log("Click on home")
+>>>>>>> ef7e7d8beec84c900a25c52dc31b5b54d7070246
 }
 
 window.onload = init;
