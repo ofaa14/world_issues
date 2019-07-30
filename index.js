@@ -21,10 +21,7 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> d0b88b26ed2ca1694616090d0927c28e8c1f11a9
 function init() {
   openCity(event, 'Home');
   console.log("Click on home")
