@@ -1,29 +1,4 @@
-// function fetchJSON(path, calback) {
-//     var httpRequest = new XMLHttpRequest();
-//     httpRequest.onreadystatechange = function() {
-//       if (httpRequest.readystate === 4) {
-//         if (httpRequest.status === 200) {
-//             var data = JSON.parse(httpRequest.responseText);
-//             if (callback) callback(data);
-//         }
-//
-//     }
-//
-//   };
-//   httpRequest.open('GET', path);
-//   httpRequest.send();
-// }
-//
-// function init() {
-//   fetchJSON('api.json', function(data) {
-//     document.getElementById("articleImage").src = data.articles[0].urlToImage;
-//     document.getElementById("articleSource").innerHTML = data.articles[0].source.name
-//     document.getElementById("articleTitle").innerHTML
-//   });
-// }
-//
-//   window.onload = init;
-// Saves JSON from an API URL or JSON file and stores it in a JavaScript variable named data
+
 function fetchJSON(path, callback) {
     var httpRequest = new XMLHttpRequest();
     httpRequest.onreadystatechange = function() {
