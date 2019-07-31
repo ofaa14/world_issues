@@ -49,6 +49,7 @@ function display_climate_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=climate&' +
             'q=change&' +
+            'q=world&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -77,6 +78,9 @@ function display_climate_news() {
 function display_deforestation_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=deforestation&' +
+            'q=forests&' +
+            'q=trees&' +
+            'q=fires&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -107,6 +111,8 @@ function display_deforestation_news() {
 function display_pollution_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=pollution&' +
+            'q=air&' +
+            'q=trash&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -138,6 +144,8 @@ function display_gender_news() {
             'q=gender&' +
             'q=education&' +
             'q=disparity&' +
+            'q=tech&' +
+            'q=stem&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -167,6 +175,7 @@ function display_residential_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=residential&' +
             'q=segregation&' +
+            'q=racism&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -196,6 +205,10 @@ function display_residential_news() {
 function display_poverty_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=poverty&' +
+            'q=life&' +
+            'q=homeless&' +
+            'q=poor&' +
+            'q=global&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -226,6 +239,8 @@ function display_water_news() {
             'q=lack&' +
             'q=clean&' +
             'q=water&' +
+            'q=world&' +
+            'q=third&' +
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
@@ -256,6 +271,9 @@ function display_violence_news() {
             'q=violence&' +
             'q=against&' +
             'q=Women&' +
+            'q=sexism&' +
+            'q=domestic violence&' +
+
             'from=2019-07-31&' +
             'sortBy=popularity&' +
             'apiKey=bec58c265701447680dab904bce23373', function(data) {
