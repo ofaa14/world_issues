@@ -1,20 +1,23 @@
 {
-
-  "totalResults": 10,
-  "articles": [
-    {
-      "source": {
-        "id": "google-news",
-        "name": "Google News"
-      },
-      "author": "Justin Gillis",
-      "illustration": "Jon Han",
-      "title": "Climate Change is Complex. We've Got Answers to Your Questions",
-      "description": "The big day is underway. After months of legal wrangling -- and more than 100 days after the release of his report detailing Russia's attempts to interfere in the 2016 presidential election -- former special counsel Robert Mueller will take questions from Cap…",
-      "url": "https://www.nytimes.com/interactive/2017/climate/what-is-climate-change.html?rref=collection%2Fsectioncollection%2Fclimate&action=click&contentCollection=climate&region=rank&module=package&version=highlights&contentPlacement=9&pgtype=sectionfront",
-      "urlToImage": "https://static01.nyt.com/newsgraphics/2017/07/12/climate-qa/assets/images/09-2000.jpg",
-      "publishedAt": "The New York Times",
-      "content": "We know. Global warming is daunting. So here’s a place to start: 17 often-asked questions with some straightforward answers."
+<<<<<<< HEAD
+"status": "ok",
+"totalResults": 10,
+-"articles": [
+-{
+-"source": {
+"id": "google-news",
+"name": "Google News"
+},
+"author": "Justin Gillis",
+"illustration": "Jon Han",
+"title": "Climate Change is Complex. We've Got Answers to Your Questions",
+"description": "The big day is underway. After months of legal wrangling -- and more than 100 days after the release of his report detailing Russia's attempts to interfere in the 2016 presidential election -- former special counsel Robert Mueller will take questions from Cap…",
+"url": "https://www.nytimes.com/interactive/2017/climate/what-is-climate-change.html?rref=collection%2Fsectioncollection%2Fclimate&action=click&contentCollection=climate&region=rank&module=package&version=highlights&contentPlacement=9&pgtype=sectionfront",
+"urlToImage": "https://static01.nyt.com/newsgraphics/2017/07/12/climate-qa/assets/images/09-2000.jpg",
+"publishedAt": "The New York Times",
+"content": "We know. Global warming is daunting. So here’s a place to start: 17 often-asked questions with some straightforward answers."
+}
     }
   ]
+>>>>>>> ffcea113cbf928e7c6b8f9b05352c47cbe8e9edf
 }
