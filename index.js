@@ -103,10 +103,225 @@ function display_deforestation_news() {
   });
 }
 
+
+function display_pollution_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=pollution&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory2').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory2').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory2').appendChild(articleSource);
+    }
+  });
+}
+
+function display_gender_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=gender&' +
+            'q=education&' +
+            'q=disparity&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory3').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory3').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory3').appendChild(articleSource);
+    }
+  });
+}
+function display_residential_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=residential&' +
+            'q=segregation&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+      document.getElementById('showStory4').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory4').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory4').appendChild(articleSource);
+    }
+  });
+}
+
+function display_poverty_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=poverty&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory5').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory5').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory5').appendChild(articleSource);
+    }
+  });
+}
+function display_water_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=lack&' +
+            'q=clean&' +
+            'q=water&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory6').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory6').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory6').appendChild(articleSource);
+    }
+  });
+}
+function display_violence_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=violence&' +
+            'q=against&' +
+            'q=Women&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory7').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory7').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory7').appendChild(articleSource);
+    }
+  });
+}
+function display_lgbt_news() {
+  fetchJSON('https://newsapi.org/v2/everything?' +
+            'q=LGBTQ&' +
+            'q=discrimination&' +
+            'q=Violence&' +
+            'from=2019-07-31&' +
+            'sortBy=popularity&' +
+            'apiKey=bec58c265701447680dab904bce23373', function(data) {
+
+    for (var i = 0; i < 5; i++) {
+
+    var articleTitle = document.createElement('p');
+    articleTitle.innerHTML = data.articles[i].title;
+
+    document.getElementById('showStory8').appendChild(articleTitle);
+      var articleImage = document.createElement('img');
+      articleImage.src = data.articles[i].urlToImage;
+      articleImage.height = 300;
+      articleImage.width = 600;
+
+      document.getElementById('showStory8').appendChild(articleImage);
+
+      var articleSource = document.createElement('a');
+      articleSource.href = data.articles[i].url;
+      articleSource.innerHTML = data.articles[i].url;
+
+      document.getElementById('showStory8').appendChild(articleSource);
+    }
+  });
+}
 function init() {
   openCity(event, 'Home');
   display_climate_news();
   display_deforestation_news();
+  display_pollution_news();
+  display_gender_news();
+  display_residential_news();
+  display_poverty_news();
+  display_water_news();
+  display_violence_news();
+  display_lgbt_news();
 }
 
 window.onload = init;
