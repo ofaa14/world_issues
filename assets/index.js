@@ -48,10 +48,10 @@ function display_climate_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory').appendChild(articleTitle);
+      document.getElementById('showStory').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -81,10 +81,10 @@ function display_deforestation_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory1').appendChild(articleTitle);
+      document.getElementById('showStory1').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -114,10 +114,10 @@ function display_pollution_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory2').appendChild(articleTitle);
+      document.getElementById('showStory2').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -148,10 +148,10 @@ function display_gender_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory3').appendChild(articleTitle);
+      document.getElementById('showStory3').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -180,8 +180,8 @@ function display_residential_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory4').appendChild(articleTitle);
       var articleImage = document.createElement('img');
@@ -214,10 +214,10 @@ function display_poverty_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory5').appendChild(articleTitle);
+      document.getElementById('showStory5').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -248,10 +248,10 @@ function display_water_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory6').appendChild(articleTitle);
+      document.getElementById('showStory6').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -283,10 +283,10 @@ function display_violence_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory7').appendChild(articleTitle);
+      document.getElementById('showStory7').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
@@ -315,10 +315,10 @@ function display_lgbt_news() {
 
     for (var i = 0; i < 5; i++) {
 
-    var articleTitle = document.createElement('p');
-    articleTitle.innerHTML = data.articles[i].title;
+      var articleTitle = document.createElement('p');
+      articleTitle.innerHTML = data.articles[i].title;
 
-    document.getElementById('showStory8').appendChild(articleTitle);
+      document.getElementById('showStory8').appendChild(articleTitle);
       var articleImage = document.createElement('img');
       articleImage.src = data.articles[i].urlToImage;
       articleImage.height = 300;
