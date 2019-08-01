@@ -61,6 +61,7 @@ function display_climate_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory').appendChild(articleSource);
@@ -93,6 +94,7 @@ function display_deforestation_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory1').appendChild(articleSource);
@@ -125,6 +127,7 @@ function display_pollution_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory2').appendChild(articleSource);
@@ -158,6 +161,7 @@ function display_gender_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory3').appendChild(articleSource);
@@ -189,6 +193,7 @@ function display_residential_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory4').appendChild(articleSource);
@@ -222,6 +227,7 @@ function display_poverty_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory5').appendChild(articleSource);
@@ -255,6 +261,7 @@ function display_water_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory6').appendChild(articleSource);
@@ -289,6 +296,7 @@ function display_violence_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank";
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory7').appendChild(articleSource);
@@ -320,6 +328,7 @@ function display_lgbt_news() {
 
       var articleSource = document.createElement('a');
       articleSource.href = data.articles[i].url;
+      articleSource.target = "_blank"
       articleSource.innerHTML = data.articles[i].url;
 
       document.getElementById('showStory8').appendChild(articleSource);
