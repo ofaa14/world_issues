@@ -52,10 +52,12 @@ function display_climate_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory').appendChild(articleImage);
 
@@ -85,10 +87,12 @@ function display_deforestation_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory1').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory1').appendChild(articleImage);
 
@@ -118,10 +122,12 @@ function display_pollution_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory2').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory2').appendChild(articleImage);
 
@@ -152,10 +158,12 @@ function display_gender_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory3').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory3').appendChild(articleImage);
 
@@ -184,10 +192,12 @@ function display_residential_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory4').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory4').appendChild(articleImage);
 
@@ -218,10 +228,12 @@ function display_poverty_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory5').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory5').appendChild(articleImage);
 
@@ -252,10 +264,12 @@ function display_water_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory6').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory6').appendChild(articleImage);
 
@@ -287,10 +301,12 @@ function display_violence_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory7').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory7').appendChild(articleImage);
 
@@ -319,10 +335,12 @@ function display_lgbt_news() {
       articleTitle.innerHTML = data.articles[i].title;
 
       document.getElementById('showStory8').appendChild(articleTitle);
-      var articleImage = document.createElement('img');
-      articleImage.src = data.articles[i].urlToImage;
-      articleImage.height = 300;
-      articleImage.width = 600;
+      if (data.articles[i].urlToImage != null) {
+        var articleImage = document.createElement('img');
+        articleImage.src = data.articles[i].urlToImage;
+        articleImage.height = 300;
+        articleImage.width = 600;
+      }
 
       document.getElementById('showStory8').appendChild(articleImage);
 
