@@ -20,6 +20,7 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
 function fetchJSON(path, callback) {
     var httpRequest = new XMLHttpRequest();
 
@@ -35,15 +36,6 @@ function fetchJSON(path, callback) {
     httpRequest.open('GET', path);
     httpRequest.send();
 }
-
-// var url = 'https://newsapi.org/v2/everything?' +
-//           'q=Apple&' +
-//           'from=2019-07-31&' +
-//           'sortBy=popularity&' +
-//           'apiKey=bec58c265701447680dab904bce23373';
-//
-// var req = new Request(url);
-
 
 function display_climate_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
@@ -75,6 +67,7 @@ function display_climate_news() {
     }
   });
 }
+
 function display_deforestation_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=deforestation&' +
@@ -171,6 +164,7 @@ function display_gender_news() {
     }
   });
 }
+
 function display_residential_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=residential&' +
@@ -234,6 +228,7 @@ function display_poverty_news() {
     }
   });
 }
+
 function display_water_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=lack&' +
@@ -266,6 +261,7 @@ function display_water_news() {
     }
   });
 }
+
 function display_violence_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=violence&' +
@@ -299,6 +295,7 @@ function display_violence_news() {
     }
   });
 }
+
 function display_lgbt_news() {
   fetchJSON('https://newsapi.org/v2/everything?' +
             'q=LGBTQ&' +
@@ -329,6 +326,7 @@ function display_lgbt_news() {
     }
   });
 }
+
 function init() {
   openCity(event, 'Home');
   display_climate_news();
